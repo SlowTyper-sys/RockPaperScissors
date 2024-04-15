@@ -7,7 +7,26 @@
 </head>
 <link rel="stylesheet" href="css/style.css">
 <body>
-    
+    <h1>Rock Paper Scissors</h1>
+    <div class="container">
+        
+        <h2>Choose your move:</h2>
+        <div class="moves">
+            <button onclick="Play('rock')"><img src="img/rock.png" alt="">
+            </button>
+            <button onclick="Play('paper')"><img src="img/paper.png" alt=""></button>
+            <button onclick="Play('scissors')"><img src="img/scissors.png" alt=""></button>
+            <div class="scores">
+                <label for="result"> <span id="result"></label>
+                    <div class="inner">
+                        <label for="playerScore">Player: <span id="playerScore" class="playerScore">0</span></label>
+                        <br>
+                        <label for="computerScore">Computer: <span id="computerScore" class="computerScore">0</span></label>
+                    </div>
+
+            </div>
+    </div>
+
 </body>
 <script src="js/script.js"></script>
 </html>
